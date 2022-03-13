@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C7FFED;
+}
+h1{
+    margin-top: 2em;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px ;
+}
+
+#content{
+    margin-top: 1em;
+    font-size: 25px;
+    background-color: #008F8C;
+    padding: 5em 3em 5em 3em;
+    border-radius: 10px;
+}
+
+#inputCelsius{
+    margin-top: 30px;
+}
+
+#inputFahrenheit{
+    margin-top: 30px;
+}
+
+#inputKelvin{
+    margin-top: 30px;
+}
+
+#inputRankine{
+    margin-top: 30px;
+}
+
+#buttons input{
+    padding: 8px;
+    color: #fff;
+    border-radius: 11px;
+    background-color: #015958;
+    margin-top: 30px;
+    font-size: 20px;
+  
+}
+
+#inputs input{
+    border: 2px solid #386496;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+  
+}
+
+#buttons input:hover{
+    color: #023535;
+    background-color: #D8FFDB;
+}
+
+
+
+
+
